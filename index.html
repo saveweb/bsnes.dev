@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from bsnes.dev/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Jul 2021 05:53:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<title>bsnes</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='robots' content='noarchive'>
+<style>
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0em;
+  outline: none;
+  padding: 0em;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: #222;
+  color: #eee;
+  font-family: "Verdana", sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.35;
+  word-wrap: break-word;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header {
+  background: url("images/prism.png");
+  border-bottom: 1px solid #000;
+  padding: 8px 8px 4px 8px;
+}
+
+body > nav {
+  background: #444;
+  border-bottom: 1px solid #000;
+}
+
+body > nav a {
+  color: #eee;
+  display: inline-block;
+  font-size: 0.95em;
+  padding: 0.4em 0.8em;
+}
+
+body > nav a:hover {
+  background: #666;
+}
+
+main {
+  padding: 0.8em;
+}
+
+main a {
+  color: #88e;
+}
+
+main a:hover {
+  color: #bbe;
+}
+
+main figcaption {
+  color: #ddd;
+  font-size: 8pt;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+main h2 {
+  border-bottom: 1px solid #555;
+  margin-bottom: 0.25em;
+  margin-top: 0.5em;
+}
+
+main h2 span {
+  font-family: "Georgia";
+  font-size: 11pt;
+  float: right;
+  margin-top: 0.4em;
+}
+
+main img {
+  height: auto;
+  max-height: 100vh;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+main img.crisp {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+}
+
+main ol {
+  font-size: 9.5pt;
+  margin-top: -0.3em;
+}
+
+main ol li {
+  display: inline;
+}
+
+main ol li:after {
+  content: " » ";
+  font-weight: bold;
+}
+
+main ol li:last-child:after {
+  content: "";
+}
+
+main p {
+  margin-bottom: 0.6em;
+  max-width: 72em;
+}
+
+main p:last-child {
+  margin-bottom: 0em;
+}
+
+main ul {
+  list-style: none;
+  margin-bottom: 0.8em;
+}
+
+main ul > ul {
+  margin-left: 1em;
+  margin-bottom: 0em;
+}
+
+main ul li:before {
+  content: "• ";
+}
+
+main table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  margin-bottom: 0.8em;
+}
+
+main table tr:nth-child(even) {
+  background: #222222;
+}
+
+main table tr:nth-child(odd) {
+  background: #2c2c2c;
+}
+
+main table tr th {
+  background: #433;
+  padding: 0.5em;
+  text-align: left;
+}
+
+main table tr td {
+  padding: 0.5em;
+}
+
+main pre:not([class]) {
+  background: #223;
+  border: 1px solid #888;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+main pre.source-line {
+  background: #111;
+  float: left;
+  padding: 0em 0.25em;
+  text-align: right;
+}
+
+main pre.source-code {
+  background: #333;
+  margin-bottom: 0.8em;
+  overflow: auto;
+  padding-left: 0.5em;
+}
+
+main pre.binary {
+  background: #333;
+  margin-bottom: 0.5em;
+  overflow: auto;
+  padding: 0.2em 0.5em;
+}
+
+main div.gallery img {
+  background: #fff;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+main input {
+  margin-bottom: 0.5em;
+  vertical-align: middle;
+}
+
+main input[type="text"], input[type="submit"], main label, select {
+  background: #333;
+  border: 1px solid #888;
+  color: #fff;
+  padding: 0.4em;
+}
+
+main label, select {
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+main input[type="text"] {
+  width: 100%;
+}
+
+main input[type="file"] {
+  display: none;
+}
+
+main input[type="submit"], main label {
+  background: #555;
+  font-weight: bold;
+}
+
+main textarea {
+  background: #333;
+  border: 1px solid #888;
+  color: #fff;
+  height: 20em;
+  padding: 0.4em;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+main .post {
+  background: #333;
+  border: 1px solid #888;
+  border-radius: 8px;
+  padding: 0.5em;
+  margin-top: 1em;
+  max-width: 72em;
+  overflow: auto;
+}
+
+footer {
+  padding: 0em 0.8em;
+}
+
+footer p {
+  border-top: 1px solid #555;
+  color: #aaa;
+  font-size: 8pt;
+  padding-bottom: 0.5em;
+  padding-top: 0.3em;
+}
+</style>
+</head>
+<body>
+<header>
+  <a href='index.html'><img src='images/logo.png' alt='' width='197' height='42'></a>
+</header>
+<nav>
+   <a href='about.html'>About</a><!--
+--><a href='https://github.com/bsnes-emu/bsnes' target='_blank'>GitHub</a>
+</nav>
+<main>
+<ol><li><a href='index.html'><span>bsnes.dev</span></a></li></ol>
+<h2 id="bsnes">bsnes</h2>
+<p><strong>bsnes</strong> is a Super Nintendo emulator with 100% compatibility, focusing on features
+and ease of use.</p>
+<p><img loading="lazy" src="images/preview.png" alt="/images/preview.png"></p>
+<h2 id="links">Links</h2>
+<p><a href="https://github.com/bsnes-emu/bsnes/releases">Software Downloads</a><br>
+<a href="https://github.com/bsnes-emu/bsnes">GPLv3 Source Code</a><br>
+<a href="https://helmet.kafuka.org/bboard/forum.php?id=6">Discussion Forum</a><br>
+<a href="https://discord.gg/2Yj88Yk">Discord Chat</a><br></p>
+<h2 id="unique-features">Unique Features</h2>
+<ul>
+<li>True Super Game Boy emulation (using the SameBoy core by Lior Halphon)</li>
+<li>HD mode 7 graphics (by DerKoun) with optional supersampling</li>
+<li>Low-level emulation of all SNES coprocessors</li>
+<li>Multi-threaded PPU graphics renderer</li>
+<li>Speed mode settings which retain smooth audio output</li>
+<li>Built-in games database with over 1,200 game entries</li>
+<li>Built-in cheat code database (by mightymo) with hundreds of game entries</li>
+<li>Built-in save state manager with screenshot previews and naming capabilities</li>
+<li>Customizable game mappings to support any game cartridges, including prototypes</li>
+<li>7-zip decompression support</li>
+<li>Extensive Satellaview emulation, including BS Memory flash write and wear-leveling support</li>
+<li>Optional <a href="https://higan.dev/">higan</a> game folder support (standard game ROM files are also supported!)</li>
+<li>Advanced mapping system allowing multiple bindings to every emulated input</li>
+</ul>
+<h2 id="standard-features">Standard Features</h2>
+<ul>
+<li>MSU1 support</li>
+<li>BPS and IPS soft-patching support</li>
+<li>Save states with undo and redo support (for reverting accidental saves and loads)</li>
+<li>OpenGL multi-pass pixel shaders</li>
+<li>Several built-in software filters, including HQ2x (by MaxSt) and snes_ntsc (by blargg)</li>
+<li>Adaptive sync and dynamic rate control for perfect audio/video synchronization</li>
+<li>Just-in-time input polling for minimal input latency</li>
+<li>Run-ahead support for removing internal game engine input latency</li>
+<li>Support for Direct3D exclusive mode video</li>
+<li>Support for WASAPI and ASIO exclusive mode audio</li>
+<li>Periodic auto-saving of game saves</li>
+<li>Auto-saves of states when unloading games, and auto-resuming when reloading games</li>
+<li>Sprite limit disable support</li>
+<li>Cubic audio interpolation support</li>
+<li>Deinterlacing support</li>
+<li>Optional high-level emulation of most SNES coprocessors</li>
+<li>Optional emulation of flaws in older emulators for compatibility with older, unofficial software</li>
+<li>CPU, SA1, and SuperFX overclocking support</li>
+<li>Frame advance support</li>
+<li>Cheat code search support</li>
+<li>Movie recording and playback support</li>
+<li>Rewind support</li>
+<li>HiDPI monitor support</li>
+<li>Multi-monitor support</li>
+<li>Turbo support for controller inputs</li>
+</ul>
+</main>
+<footer>
+</footer>
+<div style='display: none;'>
+172.70.98.89
+183.64.115.82, 172.70.98.89
+Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)
+</div>
+<script>
+if(screen.width == 1920 && screen.height == 1080
+&& window.screenX == 13 && window.screenY == 45
+&& window.outerWidth == 1075 && window.outerHeight == 969) {
+  var nodes = document.getElementsByTagName("html");
+  nodes[0].innerHTML = "";
+}
+</script>
+</body>
+
+<!-- Mirrored from bsnes.dev/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Jul 2021 05:53:06 GMT -->
+</html>
