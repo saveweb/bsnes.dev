@@ -1,4 +1,4 @@
-This is A BACKUP of [bsnes2021](https://bsnes.dev)
+This is A BACKUP of [bsnes](https://bsnes.dev)
 
 ---
 
